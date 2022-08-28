@@ -1,0 +1,32 @@
+{
+    "members" : [
+      {
+        "name": "taro",
+        "gender": 0,
+        "age": 22,
+        "address": "福岡県博多区1",
+        "tel": "080-0000-0001"
+      },
+      {
+        "name": "jiro",
+        "gender": 0,
+        "age": 20,
+        "address": "福岡県博多区2",
+        "tel": "080-0000-0002"
+      },
+      {
+        "name": "saburo",
+        "gender": 0,
+        "age": 18,
+        "address": "福岡県博多区3",
+        "tel": "080-0000-0003"
+      },
+      {
+        "name": "hanako",
+        "gender": 1,
+        "age": 21,
+        "address": "福岡県博多区4",
+        "tel": "080-0000-0004"
+      }
+    ]
+  }

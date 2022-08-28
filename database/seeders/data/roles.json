@@ -1,0 +1,12 @@
+{
+    "roles" : [
+      {
+        "name": "butyou"
+      },
+      {
+        "name": "hukubutyou"
+      },{
+        "name": "member"
+      }
+    ]
+  }
