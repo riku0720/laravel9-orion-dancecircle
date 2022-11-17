@@ -13,17 +13,14 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('role_users', function (Blueprint $table) {
+        Schema::create('team_users', function (Blueprint $table) {
             $table->id();
-            //$table->foreignId('role_id')->constrained();
-            //$table->foreignId('user_id')->constrained();
-            $table->unsignedInteger('role_id');
             $table->unsignedInteger('user_id');
-            //$table->json('meta')->nullable()->default('[]');
+            $table->unsignedInteger('team_id');
             $table->timestamps();
 
-            $table->foreign('role_id')->references('id')->on('roles');
             $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('team_id')->references('id')->on('teams');
         });
     }
 
@@ -34,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('role_users');
+        Schema::dropIfExists('team_users');
     }
 };

@@ -1,43 +1,63 @@
 {
     "users":[
         {
-            "id":"1",
+            "name":"山田太郎",
+            "email":"taro@test.com",
+            "password":"taro0111",
             "team_id":"1"
         },
         {
-            "id":"2",
+            "name":"児玉清子",
+            "email":"kiyoko@test.com",
+            "password":"kiyoko0720",
             "team_id":"1"
         },
         {
-            "id":"3",
+            "name":"関根弘之",
+            "email":"hiroyuki@test.com",
+            "password":"hiroyuki0117",
             "team_id":"1"
         },
         {
-            "id":"4",
+            "name":"松原太陽",
+            "email":"taiyo@test.com",
+            "password":"taiyo0729",
             "team_id":"1"
         },
         {
-            "id":"5",
+            "name":"浜田彩乃",
+            "email":"ayano@test.com",
+            "password":"ayano1028",
             "team_id":"2"
         },
         {
-            "id":"6",
+            "name":"和田茂",
+            "email":"shigeru@test.com",
+            "password":"shigeru0508",
             "team_id":"2"
         },
         {
-            "id":"7",
+            "name":"福田浩二",
+            "email":"kouji@test.com",
+            "password":"kouji1030",
             "team_id":"2"
         },
         {
-            "id":"8",
+            "name":"角田昭子",
+            "email":"shoko@test.com",
+            "password":"shoko0909",
             "team_id":"3"
         },
         {
-            "id":"9",
+            "name":"横田さくら",
+            "email":"sakura@test.com",
+            "password":"sakura0807",
             "team_id":"3"
         },
         {
-            "id":"10",
+            "name":"西村千秋",
+            "email":"tiaki@test.com",
+            "password":"tiaki0928",
             "team_id":"3"
         }
     ]

@@ -23,6 +23,14 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         \App\Models\User::factory(10)->create();
+        $this->call(AddMembersJson::class);
+        $this->call(AddTagsJson::class);
+        $this->call(AddPostsJson::class);
+        $this->call(AddImagesJson::class);
+        $this->call(AddRolesJson::class);
+        $this->call(AddRoleUsersJson::class);
+        $this->call(AddTeamsJson::class);
+        $this->call(AddTeamUsersJson::class);
         //\App\Models\Post::factory(10)->create();
         \App\Models\Commet::factory(10)->create();
     }

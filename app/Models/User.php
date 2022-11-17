@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use App\Models\Role;
+use App\Models\Team;
 
 class User extends Authenticatable
 {
@@ -48,10 +50,13 @@ class User extends Authenticatable
 
     public function roles()
     {
-         return $this->belongsToMany(Role::class);//->withPivot('meta');
+        return $this->belongsToMany(Role::class,'role_users','user_id','role_id');//->using(Role_user::class);
      }
+
+
+
      public function teams()
      {
-         return $this->belongsTo(User::class, 'team_id');
+        return $this->belongsToMany(Team::class,'team_users','user_id','team_id');
      }
 }

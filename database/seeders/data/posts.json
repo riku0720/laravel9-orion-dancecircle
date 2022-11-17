@@ -2,56 +2,67 @@
     "posts":[
         {
             "user_id" : "1",
+            "tag_id":"2",
             "title":"鍵取りました",
             "description":"鍵は学務課のポストに返却します"
         },
         {
             "user_id" : "1",
+            "tag_id":"1",
             "title":"明日はキャンパス閉鎖です",
             "description":"17時までに鍵の返却をお願いします"
         },
         {
             "user_id" : "2",
+            "tag_id":"2",
             "title":"鍵取りました",
             "description":"鍵は学務課のポストに返却します"
         },
         {
             "user_id" : "3",
+            "tag_id":"2",
             "title":"鍵取りました",
             "description":"鍵は学務課のポストに返却します"
         },
         {
             "user_id" : "4",
+            "tag_id":"2",
             "title":"鍵取りました",
             "description":"鍵は学務課のポストに返却します"
         },
         {
             "user_id" : "5",
+            "tag_id":"2",
             "title":"鍵取りました",
             "description":"鍵は学務課のポストに返却します"
         },
         {
             "user_id" : "6",
+            "tag_id":"2",
             "title":"鍵取りました",
             "description":"鍵は学務課のポストに返却します"
         },
         {
             "user_id" : "7",
+            "tag_id":"2",
             "title":"鍵取りました",
             "description":"鍵は学務課のポストに返却します"
         },
         {
             "user_id" : "8",
+            "tag_id":"2",
             "title":"鍵取りました",
             "description":"鍵は学務課のポストに返却します"
         },
         {
             "user_id" : "9",
+            "tag_id":"2",
             "title":"鍵取りました",
             "description":"鍵は学務課のポストに返却します"
         },
         {
             "user_id" : "10",
+            "tag_id":"2",
             "title":"鍵取りました",
             "description":"鍵は学務課のポストに返却します"
         }

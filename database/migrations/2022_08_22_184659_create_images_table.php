@@ -15,9 +15,12 @@ return new class extends Migration
     {
         Schema::create('images', function (Blueprint $table) {
             $table->id();
-            $table->String('picture\character_ochoushimono');
+            $table->unsignedInteger('post_id');
+            $table->String('path');
             $table->String('imageable_id_type');
             $table->timestamps();
+
+            $table->foreign('post_id')->references('id')->on('posts');
         });
     }
 

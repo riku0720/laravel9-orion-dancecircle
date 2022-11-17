@@ -10,6 +10,8 @@ class Team extends Model
     use HasFactory;
     public function users()
     {
-        return $this->hasMany(Post::class,'team_id');
+       return $this->belongsToMany(User::class,'team_users','team_id','user_id');
+       
     }
+
 }

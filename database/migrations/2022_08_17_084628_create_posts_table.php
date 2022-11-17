@@ -17,11 +17,13 @@ return new class extends Migration
             $table->id();
             $table->unsignedInteger('user_id');
             //$table->foreignId('user_id')->constrained();
+            $table->unsignedInteger('tag_id');
             $table->string('title');
             $table->string('description');
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('tag_id')->references('id')->on('tags');
         });
     }
 

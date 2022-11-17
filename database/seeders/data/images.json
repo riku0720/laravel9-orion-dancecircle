@@ -1,0 +1,55 @@
+{
+    "images":[
+        {
+            "post_id":"1",
+            "path":"picture character_ochoushimono",
+            "imageable_id_type":"png"
+        },
+        {
+            "post_id":"2",
+            "path":"picture character_ochoushimono",
+            "imageable_id_type":"png"
+        },
+        {
+            "post_id":"3",
+            "path":"picture character_ochoushimono",
+            "imageable_id_type":"png"
+        },
+        {
+            "post_id":"4",
+            "path":"picture character_ochoushimono",
+            "imageable_id_type":"png"
+        },
+        {
+            "post_id":"5",
+            "path":"picture character_ochoushimono",
+            "imageable_id_type":"png"
+        },
+        {
+            "post_id":"6",
+            "path":"picture character_ochoushimono",
+            "imageable_id_type":"png"
+        },
+        {
+            "post_id":"7",
+            "path":"picture character_ochoushimono",
+            "imageable_id_type":"png"
+        },
+        {
+            "post_id":"8",
+            "path":"picture character_ochoushimono",
+            "imageable_id_type":"png"
+        },
+        {
+            "post_id":"9",
+            "path":"picture character_ochoushimono",
+            "imageable_id_type":"png"
+        },
+        {
+            "post_id":"10",
+            "path":"picture character_ochoushimono",
+            "imageable_id_type":"png"
+        }
+
+    ]
+}
